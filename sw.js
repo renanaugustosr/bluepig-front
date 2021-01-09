@@ -2,7 +2,7 @@ var VERSION = '22';
 this.addEventListener('install', function(e) {
     e.waitUntil(caches.open(VERSION).then(cache => {
         return cache.addAll([  
-                       'http://localhost/pw/tes.css'
+                       'index.html'
     
     
     ]);
