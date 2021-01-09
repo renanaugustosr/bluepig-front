@@ -1,17 +1,18 @@
 {
-    "name": "AgilePoker",
-    "short_name": "AgilePoker",
-    "theme_color": "#2a0044",
-    "background_color": "#2a0044",
-    "display": "standalone",
-    "start_url": "/",
-    "prefer_related_applications": false,
-    "icons": [
-      {
-        "src": "images/user.png",
-        "sizes": "144x144",
-        "type": "image/png",
-        "purpose": "any"
-      }
-    ]
-  }
+  "name": "BankRio",
+  "short_name": "BankRio",
+  "description": "BankRio - Resumo Financeiro",
+  "display": "standalone",
+  "start_url": ".",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#027be3",
+  "icons": [
+    {
+      "src": "images/user.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
