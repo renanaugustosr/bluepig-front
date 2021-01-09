@@ -5,6 +5,7 @@
     "background_color": "#2a0044",
     "display": "standalone",
     "start_url": "/",
+    "prefer_related_applications": false,
     "icons": [
       {
         "src": "images/user.png",

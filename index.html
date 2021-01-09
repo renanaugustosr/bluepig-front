@@ -1,10 +1,19 @@
 <html>
-    <head>
-        <link rel="manifest" href="manifest.json">
-    </head>
-    <body>
-        teste
-            <!-- Service Work -->
+
+<head>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        #setup_button {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    teste
+    <button id="setup_button" onclick="installApp()">Installer</button>
+    <!-- Service Work -->
     <script src="sw.js"></script>
-    </body>
+</body>
+
 </html>
